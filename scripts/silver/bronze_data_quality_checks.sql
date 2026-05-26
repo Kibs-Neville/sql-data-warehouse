@@ -1,3 +1,18 @@
+/*
+    ============================================
+        Bronze Data Quality Check Script
+    ============================================
+    
+    Script purpose:
+        - The following is a data quality check script for the bronze tables
+
+        - It guides us in knowing the kind of transformations or modifications
+        needed for the bronze tables, before loading the data into the silver tables
+
+        - After knwowing the issues,tranformations are written for the data before loading
+        to the silver tables
+*/
+
 USE DataWarehouse;
 
 /*
