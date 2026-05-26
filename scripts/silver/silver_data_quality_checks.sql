@@ -1,3 +1,18 @@
+/*
+    ============================================
+        Silver Data Quality Check Script
+    ============================================
+    
+    Script purpose:
+        - The following is a data quality check script for the silver tables
+
+        - It helps us ensure that the transformations we made to the data from
+          the bronze tables have taken effect and the quality is clean
+          
+        - Incase of any discrepancy, the transformations are reviewed and updated
+          until we obtain clean silver tables
+*/
+
 USE DataWarehouse;
 
 /*
