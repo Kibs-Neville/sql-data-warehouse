@@ -1,3 +1,16 @@
+/*
+    ===================================================
+        Bronze Data Definition Language Script
+    ===================================================
+    
+    Script purpose:
+        - The following is a data definition language script for the bronze layer (bronze tables)
+
+        - It checks whether the stated table is available, drops the table and creates a new one
+        with the table structure well stipulated
+
+*/
+
 USE DataWarehouse;
 
 --- Schemas for source_crm dataset
